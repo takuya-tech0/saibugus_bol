@@ -57,6 +57,10 @@ def handle_message(event):
         reply_text = "予約はこちらから！\nhttps://your-booking-site.com"
     elif text == "営業時間":
         reply_text = "営業時間：10:00-20:00\n定休日：毎週水曜日"
+    elif text == "せんば":
+        reply_text = "たくみ"
+    elif text == "おかざわ":
+        reply_text = "みつお"
     else:
         reply_text = "ご質問は下のメニューからお選びください。"
     
